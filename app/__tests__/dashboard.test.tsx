@@ -10,7 +10,7 @@ test("renders the dashboard page, locates the header", () => {
   expect(
     main.getByRole("heading", {
       level: 1,
-      name: /Welcome to the interest calculator/i,
+      name: /A simple calculator for term deposits/i,
     }),
   ).toBeDefined();
 });
